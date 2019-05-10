@@ -1,0 +1,246 @@
+@font-face {
+	font-family: ariah;
+	src: url(../assets/font/ariah.ttf);
+}
+
+@font-face {
+	font-family: ciutadella;
+	src: url(../assets/font/ciutadella.ttf);
+}
+
+#beginning {
+	background: white;
+}
+
+#inizio {
+	margin: 10vh;
+}
+
+#inizio2 {
+	margin: 10vh;
+	margin-bottom: 4vh;
+}
+
+#elenco {
+	margin: 10vh;
+}
+
+
+/*generici */
+
+.name {
+	font-family: sans-serif;
+	font-size: 1.5rem;
+}
+
+.name2 {
+	font-family: sans-serif;
+	font-size: 0.8rem;
+}
+
+.red {
+	color: red;
+}
+
+.gray {
+	color: dimgray;
+}
+
+.black {
+	color: black;
+}
+
+.sub {
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	margin-top: 0.4rem;
+}
+
+.website {
+	font-family: sans-serif;
+	color: red;
+	font-size: 0.8rem;
+	margin-top: 2rem;
+}
+
+
+a:link {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: black;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 2rem;
+}
+
+
+/*specifici */
+
+.sonificazione {
+	font-family: "ciutadella";
+	font-size: 1.5rem;
+}
+
+.iceberg {
+	font-family: "ariah";
+	font-size: 1.5rem;
+}
+
+.pancake {
+	font-family: "Inconsolata";
+	font-size: 1.5rem;
+}
+
+.netneutrality {
+	font-family: "Oswald";
+	font-size: 1.5rem;
+}
+
+.capital {
+	font-family: "TradeGothicLH-extended";
+	font-size: 1.5rem;
+}
+
+
+/*personal page*/
+
+.ritratto {
+	width: 200px;
+	background-color: blue;
+}
+
+.cv {
+	font-family: sans-serif;
+	color: black;
+	font-size: 1rem;
+	margin-bottom: 1vh;
+}
+
+.cv1 {
+	font-family: sans-serif;
+	color: black;
+	font-size: 1rem;
+	margin-top: 2vh;
+}
+
+.cv2 {
+	font-family: sans-serif;
+	color: black;
+	font-size: 0.8rem;
+	margin-top: 0.2vh;
+}
+
+#blocco1 {
+	padding: 0;
+	margin-left: 0;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
+}
+
+#blocco2 {
+	margin-left: 0;
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+}
+
+
+
+
+#curriculum {
+	margin-left: 10vh;
+	margin-right: 10vh;
+	padding: 0;
+}
+
+
+
+/*progetto pages*/
+
+#progetto {
+	margin-left: 10vh;
+	margin-right: 10vh;
+	margin-bottom: 10vh;
+}
+
+
+
+.descrizione {
+	margin-top: 1vh;
+	font-family: sans-serif;
+	color: lightgray;
+	font-size: 0.8rem;
+}
+
+.anno {
+	margin-top: 0.5vh;
+	font-family: sans-serif;
+	color: lightgray;
+	font-size: 0.8rem;
+}
+
+.abstract {
+	width: 100%;
+	margin-right: 10vh;
+	margin-top: 4vh;
+	font-family: sans-serif;
+	color: black;
+	font-size: 1rem;
+	margin-bottom: 3vh;
+}
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+
+	.ritratto {
+		width: 270px;
+		background-color: red;
+	}
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+
+	.ritratto {
+		width: 270px;
+		background-color: blue;
+	}
+
+	.abstract {
+		width: 50%;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+
+	.ritratto {
+		width: 300px;
+		background-color: green;
+	}
+
+
+
+}
+
+@media (min-width: 1400px) {
+	.ritratto {
+		width: 20%;
+		background-color: pink;
+	}
+
+}
