@@ -8,6 +8,12 @@
 	src: url(../assets/font/ciutadella.ttf);
 }
 
+
+@font-face {
+	font-family: tradegothic;
+	src: url(../assets/font/TradeGothicLH-Extended.otf);
+}
+
 #beginning {
 	background: white;
 }
@@ -106,7 +112,7 @@ li {
 }
 
 .capital {
-	font-family: "TradeGothicLH-extended";
+	font-family: "tradegothic";
 	font-size: 1.5rem;
 }
 
