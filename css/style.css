@@ -105,7 +105,7 @@ a.website:hover {
 ul {
 	list-style: none;
 	padding: 0;
-	margin-top: 15%;
+	margin-top: 25%;
 }
 
 li {
@@ -234,6 +234,14 @@ li {
 	font-size: 0.7rem;
 }
 
+.device {
+	margin-top: 0.3vh;
+	font-family: sans-serif;
+	color: lightgray;
+	font-size: 0.5rem;
+	font-size: 0.5rem;
+}
+
 .abstract {
 	width: 100%;
 	margin-right: 10%;
@@ -345,6 +353,15 @@ li {
 	font-size: 0.8rem;
 }
 
+	.device {
+	margin-top: 0.3vh;
+	font-family: sans-serif;
+	color: lightgray;
+	font-size: 0rem;
+}
+	
+	
+	
 }
 
 @media (min-width: 1400px) {
