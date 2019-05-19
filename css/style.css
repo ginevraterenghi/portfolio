@@ -14,6 +14,16 @@
 	src: url(../assets/font/TradeGothicLH-Extended.otf);
 }
 
+@font-face {
+	font-family: oswald;
+	src: url(../assets/font/Oswald.ttf);
+}
+
+@font-face {
+	font-family: inconsolata;
+	src: url(../assets/font/Inconsolata.ttf);
+}
+
 #beginning {
 	background: white;
 }
@@ -129,11 +139,11 @@ li {
 }
 
 .pancake {
-	font-family: "Inconsolata";
+	font-family: "inconsolata";
 }
 
 .netneutrality {
-	font-family: "Oswald";
+	font-family: "oswald";
 }
 
 .capital {
