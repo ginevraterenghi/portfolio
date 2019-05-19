@@ -28,18 +28,27 @@
 }
 
 #inizio {
-	margin: 10%;
+	margin-top: 10%;
 	margin-left: 10%;
-	margin-bottom: 4%
+	margin-right: 10%;
 }
 
 #inizio2 {
 	margin-top: 10%;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
-#elenco {
-	margin: 4%;
+#elenco,
+#curriculum {
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 4%;
+}
+
+#progetto {
+	margin-top: 20%;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 4%;
@@ -105,7 +114,6 @@ a.website:hover {
 ul {
 	list-style: none;
 	padding: 0;
-	margin-top: 25%;
 }
 
 li {
@@ -187,8 +195,7 @@ li {
 #blocco1 {
 	padding: 0;
 	margin-left: 0;
-	margin-top: 3vh;
-	margin-bottom: 2vh;
+	margin-top: 20%;
 }
 
 #blocco2 {
@@ -200,12 +207,7 @@ li {
 
 
 
-#curriculum {
-	margin-top: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: 0;
-}
+
 
 
 
@@ -276,6 +278,31 @@ li {
 	}
 
 
+	#blocco1 {
+		padding: 0;
+		margin-left: 0;
+		margin-top: 10%;
+	}
+
+	#blocco2 {
+		margin-left: 0;
+		margin-top: 10%;
+		margin-bottom: 7%;
+	}
+
+	#elenco,
+	#curriculum {
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#progetto {
+		margin-top: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
 }
 
 /*// Large devices (desktops, 992px and up)*/
@@ -294,6 +321,20 @@ li {
 	.abstractmini {
 		width: 50%;
 	}
+
+
+	#blocco1 {
+		padding: 0;
+		margin-left: 0;
+		margin-top: 0%;
+	}
+
+	#blocco2 {
+		margin-left: 0;
+		margin-top: 5%;
+		margin-bottom: 2%;
+	}
+
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
@@ -315,7 +356,7 @@ li {
 	}
 
 	.t2 {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 	}
 
 	.t3 {
@@ -328,7 +369,7 @@ li {
 
 	.abstract,
 	.abstractmini {
-		font-size: 1.1rem;
+		font-size: 1rem;
 		line-height: 1.7rem;
 	}
 
@@ -370,13 +411,52 @@ li {
 		font-size: 0.8rem;
 	}
 
+	#elenco,
+	#curriculum {
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 
+	#progetto {
+		margin-top: 5%;
+		margin-left: 7%;
+		margin-right: 7%;
+	}
 }
+
 
 @media (min-width: 1400px) {
 	.ritratto {
 		width: 20%;
 		background-color: pink;
 	}
+
+
+	#inizio {
+		margin-top: 7%;
+		margin-left: 7%;
+	}
+
+	#inizio2 {
+		margin-top: 7%;
+		margin-left: 7%;
+	}
+
+
+	#elenco,
+	#curriculum {
+		margin-top: 5%;
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+
+	#progetto {
+		margin-top: 5%;
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+
+
 
 }
