@@ -67,7 +67,6 @@
 
 .website {
 	font-family: sans-serif;
-	color: red;
 	font-size: 0.8rem;
 	margin-top: 2rem;
 }
@@ -79,8 +78,18 @@ a:link {
 }
 
 a:hover {
-	color: darkgray;
+	color: lightgray;
 }
+
+
+a.website {
+  color: red;
+}
+
+a.website:hover {
+  color: lightgray;
+}
+
 
 ul {
 	list-style: none;
@@ -192,7 +201,7 @@ li {
 
 #progetto {
 	margin-left: 20vh;
-	margin-right: 10vh;
+	margin-right: 20vh;
 	margin-bottom: 10vh;
 }
 
@@ -219,6 +228,7 @@ li {
 	font-family: sans-serif;
 	color: black;
 	font-size: 1rem;
+	line-height: 1.7rem;
 	margin-bottom: 3vh;
 
 }
@@ -243,6 +253,7 @@ li {
 		width: 270px;
 		background-color: red;
 	}
+	
 
 }
 
