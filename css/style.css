@@ -30,7 +30,7 @@
 #inizio {
 	margin: 10%;
 	margin-left: 10%;
-	margin-bottom:4%
+	margin-bottom: 4%
 }
 
 #inizio2 {
@@ -72,13 +72,13 @@
 
 .sub {
 	font-family: sans-serif;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	margin-top: 0.4rem;
 }
 
 .website {
 	font-family: sans-serif;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	margin-top: 2rem;
 }
 
@@ -94,11 +94,11 @@ a:hover {
 
 
 a.website {
-  color: red;
+	color: red;
 }
 
 a.website:hover {
-  color: lightgray;
+	color: lightgray;
 }
 
 
@@ -114,7 +114,6 @@ li {
 
 
 /*specifici */
-
 
 .t1 {
 	font-size: 1.8rem;
@@ -213,7 +212,7 @@ li {
 /*progetto pages*/
 
 #progetto {
-	margin-top: 3%;
+	margin-top: 6%;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 5%;
@@ -222,23 +221,23 @@ li {
 
 
 .descrizione {
-	margin-top: 1vh;
+	margin-top: 2vh;
 	font-family: sans-serif;
 	color: lightgray;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 .anno {
-	margin-top: 0.5vh;
+	margin-top: 0.3vh;
 	font-family: sans-serif;
 	color: lightgray;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 .abstract {
 	width: 100%;
 	margin-right: 10%;
-	margin-top: 4%;
+	margin-top: 6%;
 	font-family: sans-serif;
 	color: black;
 	font-size: 0.8rem;
@@ -267,7 +266,7 @@ li {
 		width: 270px;
 		background-color: red;
 	}
-	
+
 
 }
 
@@ -283,7 +282,7 @@ li {
 	.abstract {
 		width: 50%;
 	}
-	
+
 	.abstractmini {
 		width: 50%;
 	}
@@ -298,33 +297,54 @@ li {
 		background-color: green;
 	}
 
-li {
-	margin-bottom: 2rem;
-}
-	
+	li {
+		margin-bottom: 2rem;
+	}
+
 	.t1 {
-	font-size: 2.2rem;
-	line-height: 2.7rem;
-}
-	
+		font-size: 2.2rem;
+		line-height: 2.7rem;
+	}
+
 	.t2 {
-	font-size: 1.5rem;
+		font-size: 1.5rem;
+	}
+
+	.t3 {
+		font-size: 1.2rem;
+	}
+
+	.t4 {
+		font-size: 1rem;
+	}
+
+	.abstract,
+	.abstractmini {
+		font-size: 1.1rem;
+		line-height: 1.7rem;
+	}
+
+	.sub,
+	.website {
+		font-family: sans-serif;
+		font-size: 0.8rem;
+		margin-top: 0.4rem;
+	}
+
+	.descrizione {
+	margin-top: 1vh;
+	font-family: sans-serif;
+	color: lightgray;
+	font-size: 0.8rem;
 }
 
-.t3 {
-	font-size: 1.2rem;
+.anno {
+	margin-top: 0.5vh;
+	font-family: sans-serif;
+	color: lightgray;
+	font-size: 0.8rem;
 }
 
-.t4 {
-	font-size: 1rem;
-}
-	
-.abstract, .abstractmini {
-	font-size: 1.1rem;
-	line-height: 1.7rem;
-}
-	
-	
 }
 
 @media (min-width: 1400px) {
