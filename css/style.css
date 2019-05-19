@@ -8,7 +8,6 @@
 	src: url(../assets/font/ciutadella.ttf);
 }
 
-
 @font-face {
 	font-family: tradegothic;
 	src: url(../assets/font/TradeGothicLH-Extended.otf);
@@ -29,19 +28,22 @@
 }
 
 #inizio {
-	margin: 10vh;
-	margin-left: 20vh;
+	margin: 10%;
+	margin-left: 10%;
+	margin-bottom:4%
 }
 
 #inizio2 {
-	margin: 10vh;
-	margin-bottom: 4vh;
-	margin-left: 20vh
+	margin: 10%;
+	margin-bottom: 2%;
+	margin-left: 10%;
 }
 
 #elenco {
-	margin: 10vh;
-	margin-left: 20vh
+	margin: 4%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 4%;
 }
 
 
@@ -191,17 +193,17 @@ li {
 
 #blocco2 {
 	margin-left: 0;
-	margin-top: 5vh;
-	margin-bottom: 10vh;
+	margin-top: 5%;
+	margin-bottom: 10%;
 }
 
 
 
 
 #curriculum {
-	margin-top: 10vh;
-	margin-left: 20vh;
-	margin-right: 10vh;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 	padding: 0;
 }
 
@@ -210,9 +212,9 @@ li {
 /*progetto pages*/
 
 #progetto {
-	margin-left: 20vh;
-	margin-right: 20vh;
-	margin-bottom: 10vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
 }
 
 
@@ -233,24 +235,24 @@ li {
 
 .abstract {
 	width: 100%;
-	margin-right: 10vh;
-	margin-top: 4vh;
+	margin-right: 10%;
+	margin-top: 4%;
 	font-family: sans-serif;
 	color: black;
 	font-size: 1rem;
 	line-height: 1.7rem;
-	margin-bottom: 3vh;
+	margin-bottom: 3%;
 
 }
 
 .abstractmini {
 	width: 100%;
-	margin-right: 10vh;
-	margin-top: 2vh;
+	margin-right: 10%;
+	margin-top: 2%;
 	font-family: sans-serif;
 	color: black;
 	font-size: 1rem;
-	margin-bottom: 3vh;
+	margin-bottom: 3%;
 }
 
 
