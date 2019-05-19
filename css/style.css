@@ -166,21 +166,21 @@ li {
 .cv {
 	font-family: sans-serif;
 	color: black;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	margin-bottom: 1vh;
 }
 
 .cv1 {
 	font-family: sans-serif;
 	color: black;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	margin-top: 2vh;
 }
 
 .cv2 {
 	font-family: sans-serif;
 	color: lightgrey;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	margin-top: 0.2vh;
 }
 
@@ -193,7 +193,7 @@ li {
 
 #blocco2 {
 	margin-left: 0;
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-bottom: 10%;
 }
 
@@ -340,28 +340,37 @@ li {
 	}
 
 	.descrizione {
-	margin-top: 1vh;
-	font-family: sans-serif;
-	color: lightgray;
-	font-size: 0.8rem;
-}
+		margin-top: 1vh;
+		font-family: sans-serif;
+		color: lightgray;
+		font-size: 0.8rem;
+	}
 
-.anno {
-	margin-top: 0.5vh;
-	font-family: sans-serif;
-	color: lightgray;
-	font-size: 0.8rem;
-}
+	.anno {
+		margin-top: 0.5vh;
+		font-family: sans-serif;
+		color: lightgray;
+		font-size: 0.8rem;
+	}
 
 	.device {
-	margin-top: 0.3vh;
-	font-family: sans-serif;
-	color: lightgray;
-	font-size: 0rem;
-}
-	
-	
-	
+		margin-top: 0.3vh;
+		font-family: sans-serif;
+		color: lightgray;
+		font-size: 0rem;
+	}
+
+	.cv,
+	cv1 {
+		font-size: 1rem;
+		margin-top: 2vh;
+	}
+
+	.cv2 {
+		font-size: 0.8rem;
+	}
+
+
 }
 
 @media (min-width: 1400px) {
