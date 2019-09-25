@@ -460,3 +460,19 @@ li {
 
 
 }
+
+/*// foto pag iceberg*/
+.foto-tela {
+	padding: 1em;
+	top: 0;
+	right: 0;
+	width: 100vh;
+	height: auto;
+	background-image: url(../img/tela.jpg);
+}
+
+
+
+.tela {
+	width: 100%;
+}
