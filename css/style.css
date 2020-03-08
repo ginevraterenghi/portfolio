@@ -110,6 +110,10 @@ a.website:hover {
 	color: lightgray;
 }
 
+a.website:visited {
+	color: lightgray;
+}
+
 
 ul {
 	list-style: none;
